@@ -1,0 +1,1 @@
+Please see: https://pauldally.medium.com/why-is-kustomize-adding-a-bunch-of-characters-to-my-secret-configmap-names-b1572741c846

@@ -1,0 +1,12 @@
+bases:
+- ../../base-namesuffixhashdisabled
+
+generatorOptions:
+ disableNameSuffixHash: true
+ 
+namespace: local-demo-namesuffixhash-ns
+
+configMapGenerator:
+- name: example-configmap-overlay
+  files:
+  - overlay.properties

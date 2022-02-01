@@ -1,0 +1,9 @@
+bases:
+- ../../base-default
+ 
+namespace: local-demo-namesuffixhash-ns
+
+configMapGenerator:
+- name: example-configmap-overlay
+  files:
+  - overlay.properties

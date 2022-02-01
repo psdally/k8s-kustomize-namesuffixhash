@@ -1,0 +1,10 @@
+resources:
+- deployment.yaml
+
+generatorOptions:
+ disableNameSuffixHash: true
+
+configMapGenerator:
+- name: example-configmap-base
+  files:
+  - base.properties
